@@ -1,0 +1,329 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "STL",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-STL-Debug-46516e36322ccb936b45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "STL",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "STL/Hash_Map",
+					"jsonFile" : "directory-STL.Hash_Map-Debug-22f72552129f28b2ca97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "STL/Hash_Map",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "TDAGrafo",
+					"jsonFile" : "directory-TDAGrafo-Debug-3108e52b79f6948bab0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TDAGrafo",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "DFS",
+					"jsonFile" : "directory-DFS-Debug-c5f5fb0d99533eb1bb11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DFS",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "BFS",
+					"jsonFile" : "directory-BFS-Debug-968a5f0a431518c7c41e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "BFS",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "TopSort",
+					"jsonFile" : "directory-TopSort-Debug-84a81d889bd041f8278c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TopSort",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "PuntosArticulacion",
+					"jsonFile" : "directory-PuntosArticulacion-Debug-907d6dc86a134d43ca4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "PuntosArticulacion",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Kruskal",
+					"jsonFile" : "directory-Kruskal-Debug-94d573b45c8b0bcfff10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Kruskal",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Sets",
+					"jsonFile" : "directory-Sets-Debug-96b3b38f53e962098821.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Sets",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "Dijkstra",
+					"jsonFile" : "directory-Dijkstra-Debug-21dee793786e170f6084.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Dijkstra",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Prim",
+					"jsonFile" : "directory-Prim-Debug-2d8d6b85063b849c8911.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Prim",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"name" : "Ayda2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "BFS::@33e31100311b176ab71a",
+					"jsonFile" : "target-BFS-Debug-d563f5c4777bc49e0a3d.json",
+					"name" : "BFS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "DFS::@1f65d6f9e29affd5c291",
+					"jsonFile" : "target-DFS-Debug-8130503194a0cfea028a.json",
+					"name" : "DFS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Dijkstra::@bd9834929c3eb3c7af2b",
+					"jsonFile" : "target-Dijkstra-Debug-4d8f50f458ed5aa6661d.json",
+					"name" : "Dijkstra",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Hash_Map::@2213e98b02644c6ceee6",
+					"jsonFile" : "target-Hash_Map-Debug-7a1dc82312483298009d.json",
+					"name" : "Hash_Map",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Kruskal::@0d8d5b1d63589ad3e789",
+					"jsonFile" : "target-Kruskal-Debug-3b3a8cf1afe2fb729a36.json",
+					"name" : "Kruskal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "Prim::@c1518415d7b76a21fff4",
+					"jsonFile" : "target-Prim-Debug-0ac393e4410667c18d39.json",
+					"name" : "Prim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "PuntosArticulacion::@81a5860489e6487cf35d",
+					"jsonFile" : "target-PuntosArticulacion-Debug-25ac0a826a60a9b2d703.json",
+					"name" : "PuntosArticulacion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "STL::@7610b3261832d332e325",
+					"jsonFile" : "target-STL-Debug-bcb36c22e89849d0d3ed.json",
+					"name" : "STL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "Sets::@eb17548b33ffe9540f11",
+					"jsonFile" : "target-Sets-Debug-e3eff5911e5ba4734113.json",
+					"name" : "Sets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "TDAGrafo::@12b594df8cd5889ac12e",
+					"jsonFile" : "target-TDAGrafo-Debug-483dcfd807305619a136.json",
+					"name" : "TDAGrafo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "TopSort::@e5599f1c239c36216fa3",
+					"jsonFile" : "target-TopSort-Debug-2d42c1e88bbdeaaba4b2.json",
+					"name" : "TopSort",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/lauba/CLionProjects/Ayda2/cmake-build-debug",
+		"source" : "C:/Users/lauba/CLionProjects/Ayda2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

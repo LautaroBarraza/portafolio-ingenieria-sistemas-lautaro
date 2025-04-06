@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePythonSetting">
+    <option name="pythonIntegrationState" value="YES" />
+  </component>
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <sourceRoots>
+      <file path="$PROJECT_DIR$/BFS" />
+      <file path="$PROJECT_DIR$/DFS" />
+      <file path="$PROJECT_DIR$/Dijkstra" />
+      <file path="$PROJECT_DIR$/Kruskal" />
+      <file path="$PROJECT_DIR$/Prim" />
+      <file path="$PROJECT_DIR$/PuntosArticulacion" />
+      <file path="$PROJECT_DIR$/STL" />
+      <file path="$PROJECT_DIR$/Sets" />
+      <file path="$PROJECT_DIR$/TDAGrafo" />
+      <file path="$PROJECT_DIR$/TopSort" />
+    </sourceRoots>
+  </component>
+</project>

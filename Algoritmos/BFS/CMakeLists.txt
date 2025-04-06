@@ -1,0 +1,17 @@
+add_executable(BFS
+               main.cpp
+                ../TDAGrafo/src/Grafo.cpp
+        BFS.cpp
+        BFS.h
+        ../Kruskal/Kruskal.cpp
+        ../Kruskal/Kruskal.h
+        ../Kruskal/main.cpp
+        ../Sets/Sets.cpp
+        ../Sets/Sets.h
+        ../Dijkstra/Dijkstra.cpp
+        ../Dijkstra/Dijkstra.h
+        ../Dijkstra/main.cpp
+        ../Prim/Prim.cpp
+        ../Prim/Prim.h
+        ../Prim/main.cpp
+)
