@@ -1,0 +1,19 @@
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+ENTITY DMux4_2 IS PORT(
+	a: in std_logic_vector(3 downto 0);
+    	s: in std_logic;
+    	o1: out std_logic_vector(3 downto 0);
+	o2: out std_logic_vector(3 downto 0));
+END DMux4_2;
+architecture structural of DMux4_2 is
+	component dmux1_2 
+		port(a,s:in std_logic; o1,o2: out std_logic);
+	end component;
+
+begin
+	gen: for i in 0 to 3 generate
+		DM: dmux1_2 port map(a=>a(i),s=>s,o1=>o1(i),o2=>o2(i));
+	end generate;
+end structural;
