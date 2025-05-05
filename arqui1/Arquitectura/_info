@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 !s11e MIXED_VERSIONS
 13
 !s112 1.1
@@ -9,124 +10,150 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/20.1
-Ealu32
-Z0 w1744030679
-Z1 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
-Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 54
-Z5 dC:/Users/lauba/OneDrive/Documentos/arqui1
-Z6 8C:/Users/lauba/OneDrive/Documentos/arqui1/ALU32.vhd
-Z7 FC:/Users/lauba/OneDrive/Documentos/arqui1/ALU32.vhd
+Ealu
+Z0 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+33
+Z4 !s110 1746321631
+!i10b 1
+Z5 w1746320214
+!i122 213
+Z6 dC:/Users/lauba/OneDrive/Documentos/arqui1
+Z7 8C:/Users/lauba/OneDrive/Documentos/arqui1/ALU.vhd
+Z8 FC:/Users/lauba/OneDrive/Documentos/arqui1/ALU.vhd
 l0
 L7 1
-V0OGkYbV1meb@Z?adBP[IZ2
-!s100 8;LI1dC[fNZ=[:JJhUfG73
-Z8 OV;C;2020.1;71
-33
-Z9 !s110 1744030744
-!i10b 1
-Z10 !s108 1744030744.000000
-Z11 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/ALU32.vhd|
-Z12 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/ALU32.vhd|
+V=HDJG>^bQhRm=GTlI;UFV1
+!s100 Ik9<bTL>d5oFHk9IQ_KjQ1
+Z9 OV;C;2020.1;71
+Z10 !s108 1746321631.000000
+Z11 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/ALU.vhd|
+Z12 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/ALU.vhd|
 !i113 1
 Z13 o-work work -2008 -explicit
 Z14 tExplicit 1 CvgOpt 0
-Aconcurrent
+Apractica
+R0
 R1
 R2
 R3
-R4
-DEx4 work 5 alu32 0 22 0OGkYbV1meb@Z?adBP[IZ2
-!i122 54
-l13
-L11 30
-VD7MEZ`0zg7d^>a1`BCGVS3
-!s100 FkF@EjGNm57eQ59I28JVh0
-R8
+Z15 DEx4 work 3 alu 0 22 =HDJG>^bQhRm=GTlI;UFV1
 33
-R9
+R4
 !i10b 1
+!i122 213
+l15
+L14 29
+VAa2<1Tk2?K2Om`1zeazPT2
+!s100 h@fWKNmCH`F1col:gZl]]3
+R9
 R10
 R11
 R12
 !i113 1
 R13
 R14
-Eand_gate
-Z15 w1743953825
+Aconcurrent
+R0
+R1
+R2
 R3
-R4
-!i122 34
-R5
-Z16 8C:/Users/lauba/OneDrive/Documentos/arqui1/AND_GATE.vhd
-Z17 FC:/Users/lauba/OneDrive/Documentos/arqui1/AND_GATE.vhd
+R15
+33
+Z16 !s110 1745868086
+!i10b 1
+!i122 193
+l13
+Z17 L11 30
+Vi[F9oRf_fc72@UdDgi9^g0
+!s100 LW?V6NJPTiCC>h00<IhbV1
+R9
+Z18 !s108 1745868086.000000
+R11
+R12
+!i113 1
+R13
+R14
+w1745846524
+Ealu32
+R0
+R1
+R2
+R3
+33
+!s110 1745841838
+!i10b 1
+w1745708353
+!i122 71
+R6
+Z19 8C:/Users/lauba/OneDrive/Documentos/arqui1/ALU32.vhd
+Z20 FC:/Users/lauba/OneDrive/Documentos/arqui1/ALU32.vhd
+l0
+L7 1
+V5V346c4;MEW1j8IT?X8PB2
+!s100 zVZ]RhzNYN:8PIhVY0C?;2
+R9
+!s108 1745841838.000000
+Z21 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/ALU32.vhd|
+Z22 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/ALU32.vhd|
+!i113 1
+R13
+R14
+Aconcurrent
+w0
+R0
+R1
+R2
+R3
+DEx4 work 5 alu32 0 22 0OGkYbV1meb@Z?adBP[IZ2
+!i122 54
+l13
+R17
+VD7MEZ`0zg7d^>a1`BCGVS3
+!s100 FkF@EjGNm57eQ59I28JVh0
+R9
+33
+!i10b 1
+!s108 1744030744.000000
+R21
+R22
+!i113 1
+R13
+R14
+Eand_gate
+Z23 w1743953825
+R2
+R3
+!i122 199
+R6
+Z24 8C:/Users/lauba/OneDrive/Documentos/arqui1/AND_GATE.vhd
+Z25 FC:/Users/lauba/OneDrive/Documentos/arqui1/AND_GATE.vhd
 l0
 L3 1
 VEPKS0=<kLF87WZ^0Aa9e^3
 !s100 9DEQ=g>6:z=RQHicfLZW50
-R8
+R9
 32
-Z18 !s110 1743990025
+Z26 !s110 1746321629
 !i10b 1
-Z19 !s108 1743990025.000000
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/AND_GATE.vhd|
-Z21 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/AND_GATE.vhd|
+Z27 !s108 1746321629.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/AND_GATE.vhd|
+Z29 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/AND_GATE.vhd|
 !i113 1
-Z22 o-work work -2002 -explicit
+Z30 o-work work -2002 -explicit
 R14
 Alogic_and
+R2
 R3
-R4
 DEx4 work 8 and_gate 0 22 EPKS0=<kLF87WZ^0Aa9e^3
-!i122 34
+!i122 199
 l10
 L9 4
 VZIFXKUESBDAWEaD8kOC[91
 !s100 NkP_0OX_ZQ<fQ6><9VeV51
-R8
-32
-R18
-!i10b 1
-R19
-R20
-R21
-!i113 1
-R22
-R14
-Edmux1_2
-Z23 w1743987228
-R3
-R4
-!i122 37
-R5
-Z24 8C:/Users/lauba/OneDrive/Documentos/arqui1/DMux1_2.vhd
-Z25 FC:/Users/lauba/OneDrive/Documentos/arqui1/DMux1_2.vhd
-l0
-L3 1
-V4gm9WoQj:_^cgg^2>ckII1
-!s100 OG[53NNKC6]2c6@06j:d:0
-R8
-32
-Z26 !s110 1743990026
-!i10b 1
-Z27 !s108 1743990026.000000
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/DMux1_2.vhd|
-Z29 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/DMux1_2.vhd|
-!i113 1
-R22
-R14
-Astructural
-R3
-R4
-DEx4 work 7 dmux1_2 0 22 4gm9WoQj:_^cgg^2>ckII1
-!i122 37
-l21
-L11 16
-VU6a:GH7RNn;moTP_cO:GT1
-!s100 SYoR?2<PYdii8?N6lR;o>3
-R8
+R9
 32
 R26
 !i10b 1
@@ -134,457 +161,751 @@ R27
 R28
 R29
 !i113 1
-R22
+R30
+R14
+Edatamemoryprincipal
+Z31 w1715081381
+Z32 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+Z33 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R3
+R2
+!i122 209
+R6
+Z34 8C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/DataMemoryPrincipal.vhd
+Z35 FC:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/DataMemoryPrincipal.vhd
+l0
+L19 1
+V9X94KLDRYJE7AZmWFMa2V0
+!s100 C^eScmE[H1k80_U=7loT_1
+R9
+32
+R4
+!i10b 1
+R10
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/DataMemoryPrincipal.vhd|
+Z37 !s107 C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/DataMemoryPrincipal.vhd|
+!i113 1
+R30
+R14
+Amem_arch
+R32
+R33
+R1
+R3
+R2
+DEx4 work 19 datamemoryprincipal 0 22 9X94KLDRYJE7AZmWFMa2V0
+!i122 209
+l52
+L34 170
+VGGb3o89omDLX>I>d;JVkX3
+!s100 MS<^dTWI^8>Gz:nEgc<1I2
+R9
+32
+R4
+!i10b 1
+R10
+R36
+R37
+!i113 1
+R30
+R14
+Edmux1_2
+Z38 w1743987228
+R2
+R3
+!i122 202
+R6
+Z39 8C:/Users/lauba/OneDrive/Documentos/arqui1/DMux1_2.vhd
+Z40 FC:/Users/lauba/OneDrive/Documentos/arqui1/DMux1_2.vhd
+l0
+L3 1
+V4gm9WoQj:_^cgg^2>ckII1
+!s100 OG[53NNKC6]2c6@06j:d:0
+R9
+32
+Z41 !s110 1746321630
+!i10b 1
+R27
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/DMux1_2.vhd|
+Z43 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/DMux1_2.vhd|
+!i113 1
+R30
+R14
+Astructural
+R2
+R3
+DEx4 work 7 dmux1_2 0 22 4gm9WoQj:_^cgg^2>ckII1
+!i122 202
+l21
+L11 16
+VU6a:GH7RNn;moTP_cO:GT1
+!s100 SYoR?2<PYdii8?N6lR;o>3
+R9
+32
+R41
+!i10b 1
+R27
+R42
+R43
+!i113 1
+R30
 R14
 Edmux4_2
-Z30 w1743989352
+Z44 w1743989352
+R2
 R3
-R4
-!i122 40
-R5
-Z31 8C:/Users/lauba/OneDrive/Documentos/arqui1/DMux4_2.vhd
-Z32 FC:/Users/lauba/OneDrive/Documentos/arqui1/DMux4_2.vhd
+!i122 205
+R6
+Z45 8C:/Users/lauba/OneDrive/Documentos/arqui1/DMux4_2.vhd
+Z46 FC:/Users/lauba/OneDrive/Documentos/arqui1/DMux4_2.vhd
 l0
 L4 1
 V9od29I;4NfORC5W6b1ECe2
 !s100 <:2X]^IlzGi?k<60lCQE_2
-R8
+R9
 32
-R26
+R41
 !i10b 1
-R27
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/DMux4_2.vhd|
-Z34 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/DMux4_2.vhd|
+Z47 !s108 1746321630.000000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/DMux4_2.vhd|
+Z49 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/DMux4_2.vhd|
 !i113 1
-R22
+R30
 R14
 Astructural
+R2
 R3
-R4
 DEx4 work 7 dmux4_2 0 22 9od29I;4NfORC5W6b1ECe2
-!i122 40
+!i122 205
 l15
 L10 10
 V`>>Xl>VoNOMfdJIC:aOIf0
 !s100 7>M56IGb`?798R:a5afJX2
-R8
+R9
 32
-R26
+R41
 !i10b 1
-R27
-R33
-R34
+R47
+R48
+R49
 !i113 1
-R22
+R30
 R14
 Emux2_1
-Z35 w1743957274
+Z50 w1743957274
+R2
 R3
-R4
-!i122 32
-R5
-Z36 8C:/intelFPGA/20.1/Mux2_1.vhd
-Z37 FC:/intelFPGA/20.1/Mux2_1.vhd
+!i122 197
+R6
+Z51 8C:/intelFPGA/20.1/Mux2_1.vhd
+Z52 FC:/intelFPGA/20.1/Mux2_1.vhd
 l0
 L4 1
 V:^9@N5NmU?5J`ZlEznhE50
 !s100 l4iPMVGC04YKlggVOXJI[0
-R8
+R9
 32
-R18
+R26
 !i10b 1
-R19
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/Mux2_1.vhd|
-Z39 !s107 C:/intelFPGA/20.1/Mux2_1.vhd|
+Z53 !s108 1746321628.000000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/Mux2_1.vhd|
+Z55 !s107 C:/intelFPGA/20.1/Mux2_1.vhd|
 !i113 1
-R22
+R30
 R14
 Astructural
+R2
 R3
-R4
-Z40 DEx4 work 6 mux2_1 0 22 :^9@N5NmU?5J`ZlEznhE50
-!i122 32
+Z56 DEx4 work 6 mux2_1 0 22 :^9@N5NmU?5J`ZlEznhE50
+!i122 197
 l44
 L31 20
 VeNjU06H20HZ0`Sf8NYIl02
 !s100 `Kn?DWPCWePLkOVKFnUSz2
-R8
+R9
 32
-R18
+R26
 !i10b 1
-R19
-R38
-R39
+R53
+R54
+R55
 !i113 1
-R22
+R30
 R14
 Aexplicit
+R2
 R3
-R4
-R40
-!i122 32
+R56
+!i122 197
 l20
 L19 11
 VhaZFHDMd?C23OC?6=Se190
 !s100 ]=gK]1jV2Ja^E1EhMW@@n3
-R8
+R9
 32
-R18
+R26
 !i10b 1
-R19
-R38
-R39
+R53
+R54
+R55
 !i113 1
-R22
+R30
 R14
 Aimplicitconcurrent
+R2
 R3
-R4
-R40
-!i122 32
+R56
+!i122 197
 l13
 L12 4
 V;oJPXdc4IHMeMCLTZKMFQ2
 !s100 I;@a1X6748RHgMPPn0kRz2
-R8
+R9
 32
-R18
+R26
 !i10b 1
-R19
-R38
-R39
+R53
+R54
+R55
 !i113 1
-R22
+R30
 R14
 Emux2_4
-Z41 w1743988924
+Z57 w1743990590
+R2
 R3
-R4
-!i122 39
-R5
-Z42 8C:/Users/lauba/OneDrive/Documentos/arqui1/Mux2_4.vhd
-Z43 FC:/Users/lauba/OneDrive/Documentos/arqui1/Mux2_4.vhd
+!i122 204
+R6
+Z58 8C:/Users/lauba/OneDrive/Documentos/arqui1/Mux2_4.vhd
+Z59 FC:/Users/lauba/OneDrive/Documentos/arqui1/Mux2_4.vhd
 l0
 L3 1
 VMLklcb[Cma_OghT8b8]mk1
 !s100 CTP;AEUV`GFjk8i0l9^4f3
-R8
+R9
 32
-R26
+R41
 !i10b 1
-R27
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/Mux2_4.vhd|
-Z45 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/Mux2_4.vhd|
+R47
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/Mux2_4.vhd|
+Z61 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/Mux2_4.vhd|
 !i113 1
-R22
+R30
 R14
 Astructural
+R2
 R3
-R4
 DEx4 work 6 mux2_4 0 22 MLklcb[Cma_OghT8b8]mk1
-!i122 39
+!i122 204
 l14
 L9 10
 VDDe^X<c@7Xc:cYPWm]bSB3
 !s100 hHTm[O`L>W?j49i8BVm[Z0
-R8
+R9
 32
-R26
+R41
 !i10b 1
-R27
-R44
-R45
+R47
+R60
+R61
 !i113 1
-R22
+R30
 R14
 Emux4_1
-Z46 w1743988891
+Z62 w1744025211
+R2
 R3
-R4
-!i122 38
-R5
-Z47 8C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_1.vhd
-Z48 FC:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_1.vhd
+!i122 203
+R6
+Z63 8C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_1.vhd
+Z64 FC:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_1.vhd
 l0
 L4 1
 VR70hH57PhCEo[5`A`dUC<3
 !s100 fkbjLUNlfKg7BXB10E;F;3
-R8
+R9
 32
-R26
+R41
 !i10b 1
-R27
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_1.vhd|
-Z50 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_1.vhd|
+R47
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_1.vhd|
+Z66 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_1.vhd|
 !i113 1
-R22
+R30
 R14
 Astructural
+R2
 R3
-R4
 DEx4 work 6 mux4_1 0 22 R70hH57PhCEo[5`A`dUC<3
-!i122 38
+!i122 203
 l17
 L10 13
-VfaebcdT8jS1ngG[hPFN6O2
-!s100 jK;hj[9G3Dn8oJHP?;HLh0
-R8
+V45[2RL1Fac[_Gk_d]WIVU1
+!s100 XJW>?Tb]RCVo2KON2=5H61
+R9
 32
-R26
+R41
 !i10b 1
-R27
-R49
-R50
+R47
+R65
+R66
 !i113 1
-R22
+R30
 R14
 Emux4_4
-Z51 w1743989856
+Z67 w1743990082
+R2
 R3
-R4
-!i122 41
-R5
-Z52 8C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_4.vhd
-Z53 FC:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_4.vhd
+!i122 206
+R6
+Z68 8C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_4.vhd
+Z69 FC:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_4.vhd
 l0
 L3 1
-VP9C9_Ldde`n>J]ETh:3]a3
-!s100 8Dhe=5HNNm:9_H5FfReZ12
-R8
+V7_C;8JJ;PjSC[EN1_`P@J2
+!s100 YaHFzI@EYEg^_b]3W5ooK3
+R9
 32
-R26
+R41
 !i10b 1
-R27
-Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_4.vhd|
-Z55 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_4.vhd|
+R47
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_4.vhd|
+Z71 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_4.vhd|
 !i113 1
-R22
+R30
 R14
 Astructural
+R2
 R3
-R4
-DEx4 work 6 mux4_4 0 22 P9C9_Ldde`n>J]ETh:3]a3
-!i122 41
+DEx4 work 6 mux4_4 0 22 7_C;8JJ;PjSC[EN1_`P@J2
+!i122 206
 l13
 L8 10
 V`Q8Xd6hmO:ohm3oH[2k;o3
 !s100 z4]TQie:flL_iLYEhX?RD0
-R8
+R9
 32
-R26
+R41
 !i10b 1
-R27
-R54
-R55
+R47
+R70
+R71
 !i113 1
-R22
+R30
 R14
 Enot_gate
-Z56 w1743953935
+Z72 w1743953935
+R2
 R3
-R4
-!i122 36
-R5
-Z57 8C:/Users/lauba/OneDrive/Documentos/arqui1/NOT_GATE.vhd
-Z58 FC:/Users/lauba/OneDrive/Documentos/arqui1/NOT_GATE.vhd
+!i122 201
+R6
+Z73 8C:/Users/lauba/OneDrive/Documentos/arqui1/NOT_GATE.vhd
+Z74 FC:/Users/lauba/OneDrive/Documentos/arqui1/NOT_GATE.vhd
 l0
 L3 1
 VcU49URPc=Vi2[c]c5DiQf0
 !s100 eUVW12^e]Sk:CQYm^5jj10
-R8
+R9
 32
 R26
 !i10b 1
 R27
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/NOT_GATE.vhd|
-Z60 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/NOT_GATE.vhd|
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/NOT_GATE.vhd|
+Z76 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/NOT_GATE.vhd|
 !i113 1
-R22
+R30
 R14
 Alogic_not
+R2
 R3
-R4
 DEx4 work 8 not_gate 0 22 cU49URPc=Vi2[c]c5DiQf0
-!i122 36
+!i122 201
 l9
 L8 4
 VhFjh51A`3?aDjC3<lHDZ^0
 !s100 [o3N]Ok@bChQ`=a<3^j>D0
-R8
+R9
 32
 R26
 !i10b 1
 R27
-R59
-R60
+R75
+R76
 !i113 1
-R22
+R30
 R14
 Eor_gate
-Z61 w1743953970
+Z77 w1743953970
+R2
 R3
-R4
-!i122 35
-R5
-Z62 8C:/Users/lauba/OneDrive/Documentos/arqui1/OR_GATE.vhd
-Z63 FC:/Users/lauba/OneDrive/Documentos/arqui1/OR_GATE.vhd
+!i122 200
+R6
+Z78 8C:/Users/lauba/OneDrive/Documentos/arqui1/OR_GATE.vhd
+Z79 FC:/Users/lauba/OneDrive/Documentos/arqui1/OR_GATE.vhd
 l0
 L3 1
 V1k=]O2O[14gL_61S@I8E^3
 !s100 UVDE[E82i=E=1BTe^_>WT3
-R8
+R9
 32
-R18
+R26
 !i10b 1
-R19
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/OR_GATE.vhd|
-Z65 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/OR_GATE.vhd|
+R27
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/OR_GATE.vhd|
+Z81 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/OR_GATE.vhd|
 !i113 1
-R22
+R30
 R14
 Alogic_or
+R2
 R3
-R4
 DEx4 work 7 or_gate 0 22 1k=]O2O[14gL_61S@I8E^3
-!i122 35
+!i122 200
 l10
 L9 4
 VVhD=`CJEnnZA^RP:20V=I2
 !s100 WXjzg>A@L5VTJ`G[L4TD?0
-R8
+R9
 32
-R18
+R26
 !i10b 1
-R19
-R64
-R65
+R27
+R80
+R81
 !i113 1
-R22
+R30
 R14
-Etb_alu32
-Z66 w1744029871
+Eprocessor
+Z82 w1714150492
+R1
+R0
+R2
+R3
+!i122 210
+R6
+Z83 8C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/Processor.vhd
+Z84 FC:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/Processor.vhd
+l0
+L12 1
+Vajd40bQki1zVdzzl@g2[N0
+!s100 ;85=eakNbSDlSJgH2CX?@1
+R9
+32
+R4
+!i10b 1
+R10
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/Processor.vhd|
+Z86 !s107 C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/Processor.vhd|
+!i113 1
+R30
+R14
+Aprocessor_arch
+R1
+R0
+R2
+R3
+DEx4 work 9 processor 0 22 ajd40bQki1zVdzzl@g2[N0
+!i122 210
+l78
+L32 240
+Vi<hDa[_[gIb9_OoaOPnJE2
+!s100 K3TCj67;N7e<M<B8I8Ld92
+R9
+32
+R4
+!i10b 1
+R10
+R85
+R86
+!i113 1
+R30
+R14
+Eprocessortb
+Z87 w1745866922
+R32
+R33
 R1
 R2
 R3
+!i122 215
+R6
+Z88 8C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/ProcessorTB.vhd
+Z89 FC:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/ProcessorTB.vhd
+l0
+L11 1
+VD@NeaAS7:DM50b=zi`Pc<2
+!s100 IAzmDZh<nd=`XX79lRMiC2
+R9
+33
+Z90 !s110 1746322577
+!i10b 1
+Z91 !s108 1746322576.000000
+Z92 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/ProcessorTB.vhd|
+Z93 !s107 C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/ProcessorTB.vhd|
+!i113 1
+R13
+R14
+Aprocessortb_arch
+R32
+R33
+R1
+R2
+R3
+Z94 DEx4 work 11 processortb 0 22 D@NeaAS7:DM50b=zi`Pc<2
+!i122 215
+l89
+Z95 L14 145
+Z96 V:TElQFzFT6`<;1:S0e7FC1
+Z97 !s100 3DNVEFf_^2:>3IY6Zj<lJ3
+R9
+33
+R90
+!i10b 1
+R91
+R92
+R93
+!i113 1
+R13
+R14
+Eprogrammemory
+Z98 w1745867811
+R32
+R33
+R1
+R3
+R2
+!i122 212
+R6
+Z99 8C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/ProgramMemory.vhd
+Z100 FC:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/ProgramMemory.vhd
+l0
+L15 1
+VYoaozB[bm>PlKUFfR3lJ30
+!s100 07[T5DI^:`4k<;VkET;Kc2
+R9
+32
 R4
-!i122 55
-R5
-Z67 8C:/Users/lauba/OneDrive/Documentos/arqui1/TB_ALU32.vhd
-Z68 FC:/Users/lauba/OneDrive/Documentos/arqui1/TB_ALU32.vhd
+!i10b 1
+R10
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/ProgramMemory.vhd|
+Z102 !s107 C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/ProgramMemory.vhd|
+!i113 1
+R30
+R14
+Amem_arch
+R32
+R33
+R1
+R3
+R2
+DEx4 work 13 programmemory 0 22 YoaozB[bm>PlKUFfR3lJ30
+!i122 212
+l37
+L29 65
+V8IbO@OGcWbIf@?iB6lncV2
+!s100 2IKmNcg=F12Rgl8VOh;^k3
+R9
+32
+R4
+!i10b 1
+R10
+R101
+R102
+!i113 1
+R30
+R14
+Eregisters
+Z103 w1746320238
+R33
+R1
+R2
+R3
+!i122 214
+R6
+Z104 8C:/Users/lauba/OneDrive/Documentos/arqui1/Registers.vhd
+Z105 FC:/Users/lauba/OneDrive/Documentos/arqui1/Registers.vhd
+l0
+L6 1
+V^4jgdZYci91UnzKZ_Zcnk1
+!s100 OXoVi2`TP43RFaFUXKORM2
+R9
+33
+Z106 !s110 1746321632
+!i10b 1
+R10
+Z107 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/Registers.vhd|
+Z108 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/Registers.vhd|
+!i113 1
+R13
+R14
+Apractica
+R33
+R1
+R2
+R3
+DEx4 work 9 registers 0 22 ^4jgdZYci91UnzKZ_Zcnk1
+!i122 214
+l27
+L23 19
+Vc8o]Q0kg61QS`iF>4d]C@0
+!s100 o2dhXI?e@;F8]C:6ARG@h0
+R9
+33
+R106
+!i10b 1
+R10
+R107
+R108
+!i113 1
+R13
+R14
+Abehavioral
+R0
+R1
+R2
+R3
+DEx4 work 9 registers 0 22 eCczI>ULN?=[nUgOhKa0;2
+!i122 194
+l28
+L23 23
+VLLWhT:A_P;bV;K?SA;Q>o2
+!s100 <f47He6m0[F6QIF8<jUnF3
+R9
+33
+R16
+!i10b 1
+R18
+R107
+R108
+!i113 1
+R13
+R14
+w1745846407
+Etb_alu32
+Z109 w1744029871
+R0
+R1
+R2
+R3
+!i122 208
+R6
+Z110 8C:/Users/lauba/OneDrive/Documentos/arqui1/TB_ALU32.vhd
+Z111 FC:/Users/lauba/OneDrive/Documentos/arqui1/TB_ALU32.vhd
 l0
 L7 1
 V3IUVJ^:kTWf5_]5LmN::93
 !s100 JTbm5U`m4@PKUmZOARfQe1
-R8
+R9
 32
-Z69 !s110 1744030754
+R4
 !i10b 1
-Z70 !s108 1744030754.000000
-Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/TB_ALU32.vhd|
-!s107 C:/Users/lauba/OneDrive/Documentos/arqui1/TB_ALU32.vhd|
+R10
+Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/TB_ALU32.vhd|
+Z113 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/TB_ALU32.vhd|
 !i113 1
-R22
+R30
 R14
 Atest
+R0
 R1
 R2
 R3
-R4
 DEx4 work 8 tb_alu32 0 22 3IUVJ^:kTWf5_]5LmN::93
-!i122 55
+!i122 208
 l22
 L10 21
 VQ=515@=aMW_FRH[kO=OV11
 !s100 BQk>00:]E9Q`;5AQh7UX33
-R8
+R9
 32
-R69
+R4
 !i10b 1
-R70
-R71
-Z72 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/TB_ALU32.vhd|
+R10
+R112
+R113
 !i113 1
-R22
+R30
 R14
 Etb_mux2_1
-Z73 w1743949901
+Z114 w1743949901
+R2
 R3
-R4
-!i122 33
-R5
-Z74 8C:/intelFPGA/20.1/tb_Mux2_1.vhd
-Z75 FC:/intelFPGA/20.1/tb_Mux2_1.vhd
+!i122 198
+R6
+Z115 8C:/intelFPGA/20.1/tb_Mux2_1.vhd
+Z116 FC:/intelFPGA/20.1/tb_Mux2_1.vhd
 l0
 L4 1
 VDe]S]@U4^g3RGKOFS;bb?3
 !s100 Fm[:YdLU1QgeiKiRWQ1=C1
-R8
+R9
 32
-R18
+R26
 !i10b 1
-R19
-Z76 !s90 -reportprogress|300|-work|Arquitectura|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/tb_Mux2_1.vhd|
-Z77 !s107 C:/intelFPGA/20.1/tb_Mux2_1.vhd|
+R27
+Z117 !s90 -reportprogress|300|-work|Arquitectura|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/tb_Mux2_1.vhd|
+Z118 !s107 C:/intelFPGA/20.1/tb_Mux2_1.vhd|
 !i113 1
-Z78 o-work Arquitectura -2002 -explicit
+Z119 o-work Arquitectura -2002 -explicit
 R14
 Atest
+R2
 R3
-R4
 DEx4 work 9 tb_mux2_1 0 22 De]S]@U4^g3RGKOFS;bb?3
-!i122 33
+!i122 198
 l20
 L7 26
 V5l@k3oJVL3OX[bKW^d?<`0
 !s100 U50>0Okj=Bn0JZOESc9IK2
-R8
+R9
 32
-R18
+R26
 !i10b 1
-R19
-R76
-R77
+R27
+R117
+R118
 !i113 1
-R78
+R119
 R14
 Exor_gate
-Z79 w1743990541
+Z120 w1743990541
+R2
 R3
-R4
-!i122 43
-R5
-Z80 8C:/Users/lauba/OneDrive/Documentos/arqui1/XOR_GATE.vhd
-Z81 FC:/Users/lauba/OneDrive/Documentos/arqui1/XOR_GATE.vhd
+!i122 207
+R6
+Z121 8C:/Users/lauba/OneDrive/Documentos/arqui1/XOR_GATE.vhd
+Z122 FC:/Users/lauba/OneDrive/Documentos/arqui1/XOR_GATE.vhd
 l0
 L3 1
 V]?Dg@SEz<N2O_bJ8dOm3H2
 !s100 0zn3T5VJ^SBUBQ4Y@PL7L2
-R8
+R9
 32
-Z82 !s110 1743990543
+R41
 !i10b 1
-Z83 !s108 1743990543.000000
-Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/XOR_GATE.vhd|
-Z85 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/XOR_GATE.vhd|
+R47
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/lauba/OneDrive/Documentos/arqui1/XOR_GATE.vhd|
+Z124 !s107 C:/Users/lauba/OneDrive/Documentos/arqui1/XOR_GATE.vhd|
 !i113 1
-R22
+R30
 R14
 Alogic_xor
+R2
 R3
-R4
 DEx4 work 8 xor_gate 0 22 ]?Dg@SEz<N2O_bJ8dOm3H2
-!i122 43
+!i122 207
 l10
 L9 4
 VD[09;P512ZIj]lNK^O4PY0
 !s100 V`io7?miPRQoWECk8DgC_1
-R8
+R9
 32
-R82
+R41
 !i10b 1
-R83
-R84
-R85
+R47
+R123
+R124
 !i113 1
-R22
+R30
 R14

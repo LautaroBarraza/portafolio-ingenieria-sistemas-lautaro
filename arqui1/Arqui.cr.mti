@@ -1,12 +1,28 @@
-C:/Users/lauba/OneDrive/Documentos/arqui1/ALU32.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/ALU32.vhd
+C:/Users/lauba/OneDrive/Documentos/arqui1/ALU.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/ALU.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package std_logic_arith
 -- Loading package STD_LOGIC_SIGNED
--- Compiling entity ALU32
--- Compiling architecture concurrent of ALU32
+-- Compiling entity ALU
+-- Compiling architecture PRACTICA of ALU
+
+} {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/DMux4_2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/DMux4_2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DMux4_2
+-- Compiling architecture structural of DMux4_2
+
+} {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/AND_GATE.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/AND_GATE.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AND_GATE
+-- Compiling architecture logic_and of AND_GATE
 
 } {} {}} C:/intelFPGA/20.1/Mux2_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA/20.1/Mux2_1.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -20,21 +36,52 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling architecture structural of Mux2_1
 -- Loading entity Mux2_1
 
-} {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/AND_GATE.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/AND_GATE.vhd
+} {} {}} C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/ProgramMemory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/ProgramMemory.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity AND_GATE
--- Compiling architecture logic_and of AND_GATE
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Compiling entity ProgramMemory
+-- Compiling architecture mem_arch of ProgramMemory
 
-} {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/DMux4_2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/DMux4_2.vhd
+} {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/Registers.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/Registers.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity DMux4_2
--- Compiling architecture structural of DMux4_2
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Registers
+-- Compiling architecture PRACTICA of Registers
+
+} {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/NOT_GATE.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/NOT_GATE.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity NOT_GATE
+-- Compiling architecture logic_not of NOT_GATE
+
+} {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/OR_GATE.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/OR_GATE.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity OR_GATE
+-- Compiling architecture logic_or of OR_GATE
+
+} {} {}} C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/Processor.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/Processor.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity Processor
+-- Compiling architecture processor_arch of Processor
 
 } {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/TB_ALU32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/TB_ALU32.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -46,13 +93,29 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity TB_ALU32
 -- Compiling architecture test of TB_ALU32
 
-} {} {}} C:/intelFPGA/20.1/tb_Mux2_1.vhd {1 {vcom -work Arquitectura -2002 -explicit -stats=none C:/intelFPGA/20.1/tb_Mux2_1.vhd
+} {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_1.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity tb_Mux2_1
--- Compiling architecture test of tb_Mux2_1
+-- Compiling entity Mux4_1
+-- Compiling architecture structural of Mux4_1
+
+} {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/FA_1.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/FA_1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+** Error: C:/Users/lauba/OneDrive/Documentos/arqui1/FA_1.vhd(6): near "ENTITY": (vcom-1576) expecting '[' or '.' or '(' or '\''.
+
+} {7.0 8.0} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/Mux2_4.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/Mux2_4.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux2_4
+-- Compiling architecture structural of Mux2_4
 
 } {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/DMux1_2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/DMux1_2.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -62,21 +125,32 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity DMux1_2
 -- Compiling architecture structural of DMux1_2
 
-} {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/OR_GATE.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/OR_GATE.vhd
+} {} {}} C:/intelFPGA/20.1/tb_Mux2_1.vhd {1 {vcom -work Arquitectura -2002 -explicit -stats=none C:/intelFPGA/20.1/tb_Mux2_1.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity OR_GATE
--- Compiling architecture logic_or of OR_GATE
+-- Compiling entity tb_Mux2_1
+-- Compiling architecture test of tb_Mux2_1
 
-} {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/NOT_GATE.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/NOT_GATE.vhd
+} {} {}} C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/DataMemoryPrincipal.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/DataMemoryPrincipal.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity NOT_GATE
--- Compiling architecture logic_not of NOT_GATE
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Compiling entity DataMemoryPrincipal
+-- Compiling architecture mem_arch of DataMemoryPrincipal
+
+} {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_4.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/Mux4_4.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux4_4
+-- Compiling architecture structural of Mux4_4
 
 } {} {}} C:/Users/lauba/OneDrive/Documentos/arqui1/XOR_GATE.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/lauba/OneDrive/Documentos/arqui1/XOR_GATE.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -85,5 +159,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package std_logic_1164
 -- Compiling entity XOR_GATE
 -- Compiling architecture logic_xor of XOR_GATE
+
+} {} {}} C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/ProcessorTB.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/lauba/OneDrive/Escritorio/MaterialTP2_2024/DescripcionesVHDL/ProcessorTB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Compiling entity ProcessorTB
+-- Compiling architecture processorTB_arch of ProcessorTB
 
 } {} {}}

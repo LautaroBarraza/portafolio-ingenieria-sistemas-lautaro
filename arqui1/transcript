@@ -1,0 +1,191 @@
+vsim -gui work.processortb
+# vsim -gui work.processortb 
+# Start time: 08:54:55 on May 05,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.processortb(processortb_arch)
+# Loading ieee.std_logic_signed(body)
+# Loading work.processor(processor_arch)
+# Loading work.registers(practica)
+# Loading work.alu(practica)
+# Loading work.programmemory(mem_arch)
+# Loading work.datamemoryprincipal(mem_arch)
+# A bookmarks file was found in the current directory with 3 bookmarks
+# Bookmark(s) were restored for window "Wave"
+add wave -position insertpoint sim:/processortb/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT/E_ALU
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT/E_Regs
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT/E_Regs
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT/E_Regs
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT/E_Regs
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT/E_Regs
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT/E_Regs
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processortb/UUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processortb/UUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /processortb/UUT
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/processortb/UUT/Clk \
+sim:/processortb/UUT/Reset \
+sim:/processortb/UUT/I_Addr \
+sim:/processortb/UUT/I_RdStb \
+sim:/processortb/UUT/I_WrStb \
+sim:/processortb/UUT/I_DataOut \
+sim:/processortb/UUT/I_DataIn \
+sim:/processortb/UUT/D_Rdy \
+sim:/processortb/UUT/D_Addr \
+sim:/processortb/UUT/D_RdStb \
+sim:/processortb/UUT/D_WrStb \
+sim:/processortb/UUT/D_DataOut \
+sim:/processortb/UUT/D_DataIn \
+sim:/processortb/UUT/RegWrite \
+sim:/processortb/UUT/RegDst \
+sim:/processortb/UUT/Branch \
+sim:/processortb/UUT/MemRead \
+sim:/processortb/UUT/MemtoReg \
+sim:/processortb/UUT/MemWrite \
+sim:/processortb/UUT/ALUSrc \
+sim:/processortb/UUT/Jump \
+sim:/processortb/UUT/ALUOp \
+sim:/processortb/UUT/r_wr \
+sim:/processortb/UUT/reg_wr \
+sim:/processortb/UUT/data1_reg \
+sim:/processortb/UUT/data2_reg \
+sim:/processortb/UUT/data_w_reg \
+sim:/processortb/UUT/pc_4 \
+sim:/processortb/UUT/pc_branch \
+sim:/processortb/UUT/pc_jump \
+sim:/processortb/UUT/reg_pc \
+sim:/processortb/UUT/next_reg_pc \
+sim:/processortb/UUT/ALU_oper_b \
+sim:/processortb/UUT/ALU_control \
+sim:/processortb/UUT/ALU_zero \
+sim:/processortb/UUT/ALU_result \
+sim:/processortb/UUT/inm_extended
+run
+run
+add wave -position insertpoint  \
+sim:/processortb/UUT/RegWrite \
+sim:/processortb/UUT/RegDst \
+sim:/processortb/UUT/Branch \
+sim:/processortb/UUT/MemRead \
+sim:/processortb/UUT/MemtoReg \
+sim:/processortb/UUT/MemWrite \
+sim:/processortb/UUT/ALUSrc \
+sim:/processortb/UUT/Jump \
+sim:/processortb/UUT/ALUOp \
+sim:/processortb/UUT/r_wr \
+sim:/processortb/UUT/reg_wr \
+sim:/processortb/UUT/data1_reg \
+sim:/processortb/UUT/data2_reg \
+sim:/processortb/UUT/data_w_reg \
+sim:/processortb/UUT/pc_4 \
+sim:/processortb/UUT/pc_branch \
+sim:/processortb/UUT/pc_jump \
+sim:/processortb/UUT/reg_pc \
+sim:/processortb/UUT/next_reg_pc \
+sim:/processortb/UUT/ALU_oper_b \
+sim:/processortb/UUT/ALU_control \
+sim:/processortb/UUT/ALU_zero \
+sim:/processortb/UUT/ALU_result \
+sim:/processortb/UUT/inm_extended
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT/E_ALU
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT/E_Regs
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT/E_Regs
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT/E_Regs
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT/E_Regs
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT/E_Regs
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /processortb/UUT/E_Regs
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processortb/UUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /processortb/UUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /processortb/UUT
+add dataflow \
+sim:/processortb/UUT/Clk \
+sim:/processortb/UUT/Reset \
+sim:/processortb/UUT/I_Addr \
+sim:/processortb/UUT/I_RdStb \
+sim:/processortb/UUT/I_WrStb \
+sim:/processortb/UUT/I_DataOut \
+sim:/processortb/UUT/I_DataIn \
+sim:/processortb/UUT/D_Rdy \
+sim:/processortb/UUT/D_Addr \
+sim:/processortb/UUT/D_RdStb \
+sim:/processortb/UUT/D_WrStb \
+sim:/processortb/UUT/D_DataOut \
+sim:/processortb/UUT/D_DataIn \
+sim:/processortb/UUT/RegWrite \
+sim:/processortb/UUT/RegDst \
+sim:/processortb/UUT/Branch \
+sim:/processortb/UUT/MemRead \
+sim:/processortb/UUT/MemtoReg \
+sim:/processortb/UUT/MemWrite \
+sim:/processortb/UUT/ALUSrc \
+sim:/processortb/UUT/Jump \
+sim:/processortb/UUT/ALUOp \
+sim:/processortb/UUT/r_wr \
+sim:/processortb/UUT/reg_wr \
+sim:/processortb/UUT/data1_reg \
+sim:/processortb/UUT/data2_reg \
+sim:/processortb/UUT/data_w_reg \
+sim:/processortb/UUT/pc_4 \
+sim:/processortb/UUT/pc_branch \
+sim:/processortb/UUT/pc_jump \
+sim:/processortb/UUT/reg_pc \
+sim:/processortb/UUT/next_reg_pc \
+sim:/processortb/UUT/ALU_oper_b \
+sim:/processortb/UUT/ALU_control \
+sim:/processortb/UUT/ALU_zero \
+sim:/processortb/UUT/ALU_result \
+sim:/processortb/UUT/inm_extended 
+# No drivers or ports for Clk
+# No drivers or ports for Reset
+# No drivers or ports for I_Addr
+# No drivers or ports for I_RdStb
+# No drivers or ports for I_WrStb
+# No drivers or ports for I_DataOut
+# No drivers or ports for D_Rdy
+# No drivers or ports for D_Addr
+# No drivers or ports for D_RdStb
+# No drivers or ports for 25 additional signals omitted for message brevity.

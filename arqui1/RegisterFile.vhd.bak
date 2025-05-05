@@ -1,0 +1,46 @@
+-- Code your design here
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_signed.all;
+
+entity RegisterFile is
+	Generic (
+		B: integer := 32 -- number of bits
+		W: integer := 5  -- number of address bits
+	);
+	Port(	reg1_rd: in std_logic_vector(W-1 downto 0);
+		reg2_rd: in std_logic_vector(W-1 downto 0);
+		reg_wr:  in std_logic_vector(W-1 downto 0);
+		data_wr: in std_logic_vector(B-1 downto 0);
+		wr: in std_logic;
+		rst: in std_logic;
+		clk:in std_logic;
+		data1_rd: out std_logic_vector(B-1 downto 0);
+		data2_rd: out std_logic_vector(B-1 downto 0)
+);
+end RegisterFile;
+
+architecture Behavioral of RegisterFile is
+	
+	type reg_file_type is array(o to (2**W)-1) of std_logic_vector(B-1 downto 0); --create array of registers
+	signal reg_outputs: reg_file_type:= (others => (others => '0')); --initialize registers in 0;
+	
+begin
+	
+		data1_rd<= reg_outputs(conv_integer(reg1_rd)) when reg1_rd !=x"00000000";
+		data2_rd<= reg_outputs(conv_integer(reg2_rd)) when reg2_rd !=x"00000000";
+		
+		writting:process(clk,rst)
+		begin
+			if rst="1" then
+				reg_outputs: reg_file_type:= (others => (others => '0'));
+			elsif falling_edye(clk) then
+				if(wr="1") then
+				reg_outputs(conv_integer(reg_wr))<=data_wr;
+				end if;
+			end if;
+			
+		end process;
+
+end Behavioral;

@@ -5,7 +5,7 @@ use IEEE.std_logic_arith.all;
 use IEEE.std_logic_signed.all;
 
 ENTITY ALU32 is 
-	port(a,b: in std_logic_vector(31 downto 0);ctrl: in std_logic_vector(2 downto 0);z: out std_logic; rst: out std_logic_vector(31 downto 0));
+	port(a,b: in std_logic_vector(31 downto 0);ctrl: in std_logic_vector(2 downto 0);zero: out std_logic; result: out std_logic_vector(31 downto 0));
 END ALU32;
 
 architecture concurrent of ALU32 is
@@ -34,6 +34,7 @@ begin
 				rst<=x"00000000";
 		end case;
 	end process;
+
 	z<= '1' when rst=x"00000000" else '0';
 
 end concurrent;
